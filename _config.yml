@@ -83,7 +83,7 @@ content:
         sub_title: 
           AInnovation ALP, Qingdao, China
         description: | # this will include new lines to allow paragraphs
-          **Front-End:** Vue.js, JavaScript  **Back-End:** Spring Boot, MyBatis
+          **Front-End:** Vue.js, JavaScript &nbsp; &nbsp; **Back-End:** Spring Boot, MyBatis
           - Contributed to the development of the Manufacturing Execution System for Tsingtao Brewery Luoyang Factory, streamlining operations by automating order and material management processes
           - Played a key role in the development of the Warehouse Management System for Grand Farm Hainan Central kitchen production base, realizing automatic batch code generation according to user-defined rules, and batch code management functionalities, significantly improving the management and tracking of inventory batches
 
