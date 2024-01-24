@@ -1,0 +1,253 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Songlin Zhao
+title: Undergraduate student at The Chinese University of Hong Kong, Shenzhen
+email: 120090346@link.cuhk.edu.cn
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  thiefCat
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+facebook_username: Songlin Zhao
+# flickr_username: jekyll
+instagram_username: thief_cat7918
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I am a senior undergraduate student at The Chinese University of Hong Kong, Shenzhen. My major is Data Science and Big Data Technology. 
+  I am currently learning Software Engineering. I'm always eager to dive in, experiment, and bring ideas to life!
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: The Chinese Uniersity of Hong Kong, Shenzhen
+        caption: Expected graduation June 2024
+        sub_title: B.S. in Data Science and Big Data Technology
+        description: | 
+          - CGPA: 3.87/4.0 (Rank 2/172)    MGPA: 3.951/4.0 (Rank 2/172)
+          - Revelant courses: Calculus, Linear Algebra, Probability and Statistics, Programming Methodology, C/C++ Programming, Database System, Operating System, Machine Learning, Optimization, Digital Image Processing, Computer Vision, Bayesian Statistics
+          - Honors & Rewards: 
+            - Dean's List (2020-2021, 2021-2022, 2022-2023) 
+            - Academic Performance Scholarship: Class B (2020-2021, 2021-2022, 2022-2023)
+          
+      - layout: top
+        title: University of California, Berkeley
+        caption: January 2023 - May 2023
+        sub_title: Visiting Student, Computer Science Major
+        description: | 
+          - CGPA: 4.0/4.0
+          - Revelant courses: Algorithms, Data Structures, Deep Learning 
+
+  - title: Professional Experience # Title for the section
+  layout: list # Type of content section (list/text)
+  content:
+    - layout: top
+      title: Software Development Internship, MES Research Department
+      caption: Dec. 2023 - Feb. 2023
+      sub_title: 
+        AInnovation ALP, Qingdao, China
+      description: | # this will include new lines to allow paragraphs
+        - Participated in the implementation of a Manufacturing Execution System for Tsingtao Brewery, Luoyang, 
+        using Spring Boot for the backend and Vue.js for the front end, achieving automatic order management and material management functions
+
+
+  - title: Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Text-to-3D Generation
+        caption: Jun. 2023 - Sep. 2023
+        sub_title: 
+          Deep Bit Lab, Chinese University of Hongkong, Shenzhen
+        additional_links:
+          # - link: https://github.com/thiefCat/VAE
+          #   link_text: VAE
+          # - link: https://github.com/VQ-VAE-Transformer
+          #   link_text: VQ-VAE+Transformer
+          # - link: https://github.com/thiefCat/VQ-VAE_Transformer_CelebA
+          #   link_text: DALLE on CelebA
+          # - title:  VAE
+          #   icon: fab fa-github
+          #   url: https://github.com/thiefCat/VAE
+          # - title:  VQ-VAE
+          #   icon: fab fa-github
+          #   url: https://github.com/thiefCat/VQ-VAE-Transformer
+          # - title:  VQ-VAE2
+          #   icon: fab fa-github
+          #   url: https://github.com/thiefCat/VQ-VAE_Transformer_CelebA
+        description: | # this will include new lines to allow paragraphs
+          - Conducted extensive literature review on text-to-3D generation, focusing on Implicit Text-Guided 3D Shape Generation like Shap-E and DreamFusion, and presented my insights on research group meetings
+          - Replicated and evaluated models including VAE, VQ-VAE, DALL-E, and Diffusion (classifier-guided and classifier-free guidance) from scratch using various datasets, enhancing my understanding of these models as well as their potentials and limitations
+          - Here are the github repos(code and report) for my replication work: 
+            - [VAE](https://github.com/thiefCat/VAE)
+            - [VQ-VAE+Transformer](https://github.com/thiefCat/VQ-VAE-Transformer)
+            - [DALLE-on-CelebA](https://github.com/thiefCat/VQ-VAE_Transformer_CelebA)
+            - [Diffusion]()
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Deep learning project on 3D Classification and Segmentation, UC Berkeley
+        caption: Mar. 2023 - May 2023
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/thiefCat/CS182-Project
+        description: | # this will include new lines to allow paragraphs
+          - Implemented the paper “PointNet” using pytorch, achieved 3D classification and segmentation on ModelNet10 dataset, performed ablation studies, and created solid visualizations
+          - Created a homework based on the implementation, scaffolding and building up the model step by step to demonstrate the key concepts in the paper
+
+      - layout: top
+        title: Software Engineering project of designing a 2D game, UC Berkeley
+        caption: Apr. 2023
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/thiefCat/CS61B-SE-Proj
+        description: | # this will include new lines to allow paragraphs
+          - Used java to create a 2D world exploration game with 1.3K lines of code and enabled random world generation and interactivity of the game
+          - Designed multiple features for the game, including Saving and Loading, HUD and Rename
+        
+      - layout: top
+        title: Computer Vision project on image segmentation and inpainting, CUHKSZ
+        caption: Nov. 2022 - Dec. 2022
+        link: github.com/thiefCat/thiefCat.github.io/blob/main/reports/image_inpainting_report.pdf
+        link_text: Link to Report
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: github.com/orgs/ECE-Img-Inpainting/repositories
+        description: | # this will include new lines to allow paragraphs
+          -	Realized semiautomatic image segmentation algorithm using graph cut
+          -	Proposed a hybrid inpainting algorithm: combining Exemplar-based and Poisson Blending algorithm to improve the inpainting result
+
+      - layout: top
+        title: Numerical Analysis project on SVD and QR iteration, CUHKSZ
+        caption: Nov. 2022 - Dec. 2022
+        link: github.com/thiefCat/thiefCat.github.io/blob/main/reports/SVD_report.pdf
+        link_text: Link to Report
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: github.com/Linnore/DDA3005_114514
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          -	Implemented and improved the two-phase method of SVD, and justified our improvement by both mathematical derivation and practical performance on image deblurring problem
+          -	Performed SVD and QR iteration to efficiently solve video background extraction problem
+
+
+      - layout: top
+        title: Digital Image Processing project on image stitching and deblurring, CUHKSZ
+        caption: July 2022
+        link: github.com/thiefCat/thiefCat.github.io/blob/main/reports/video_stitching_report.pdf
+        link_text: Link to Report
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: github.com/thiefCat/EIE4512_pano_proj
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          - Achieved Image Stitching to obtain panoramas using SIFT detector and Homography algorithms
+          - Implemented cylindrical projection of a series of images to enable broader panoramas
+          -	Estimated camera motion from videos to effectively deblur the generated panorama
+      
+      - layout: top
+        title: Database Design and Data Analysis of a Vocabulary Building App, CUHKSZ
+        caption: Apr. 2022 - May 2022
+        link: github.com/thiefCat/thiefCat.github.io/blob/main/reports/database.pdf
+        link_text: Link to Report
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: github.com/CSC3170
+
+        description: | # this will include new lines to allow paragraphs
+          - Designed the Entity-Relationship model and relational schema of a vocabulary building app
+          - Implemented the SQL queries to enable CRUD operations for the database
+          -	Employed decision tree model to predict a user's education level based on their recitation data
+
+
+  - title: Teaching Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: The Chinese Uniersity of Hong Kong, Shenzhen
+        sub_title: 
+          Undergraduate Student Teaching Fellow
+        description: | # this will include new lines to allow paragraphs
+          I worked as a teaching assistant for two courses:
+          - Computational Laboratory, Spring 2022
+          - Discrete Mathematics, Fall 2022
+
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
