@@ -78,9 +78,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: The Chinese Uniersity of Hong Kong, Shenzhen
+        title: Software Development Internship, MES Research Department
+        caption: Dec. 2023 - Feb. 2023
         sub_title: 
-          Undergraduate Student Teaching Fellow
+          AInnovation ALP, Qingdao, China
         description: | # this will include new lines to allow paragraphs
           I worked as a teaching assistant for two courses:
           - Computational Laboratory, Spring 2022
