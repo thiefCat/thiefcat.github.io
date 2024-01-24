@@ -73,7 +73,18 @@ content:
         description: | 
           - CGPA: 4.0/4.0
           - Revelant courses: Algorithms, Data Structures, Deep Learning 
-
+          
+  - title: Professional Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: The Chinese Uniersity of Hong Kong, Shenzhen
+        sub_title: 
+          Undergraduate Student Teaching Fellow
+        description: | # this will include new lines to allow paragraphs
+          I worked as a teaching assistant for two courses:
+          - Computational Laboratory, Spring 2022
+          - Discrete Mathematics, Fall 2022
 
 
   - title: Research Experience # Title for the section
@@ -214,17 +225,6 @@ content:
           - Computational Laboratory, Spring 2022
           - Discrete Mathematics, Fall 2022
           
-  - title: Professional Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: The Chinese Uniersity of Hong Kong, Shenzhen
-        sub_title: 
-          Undergraduate Student Teaching Fellow
-        description: | # this will include new lines to allow paragraphs
-          I worked as a teaching assistant for two courses:
-          - Computational Laboratory, Spring 2022
-          - Discrete Mathematics, Fall 2022
 
 
   # - title: A Little More About Me
