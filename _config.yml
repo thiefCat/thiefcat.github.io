@@ -60,8 +60,8 @@ content:
         caption: Expected graduation June 2024
         sub_title: B.S. in Data Science and Big Data Technology
         description: | 
-          - CGPA: 3.87/4.0 (Rank 2/172)    MGPA: 3.951/4.0 (Rank 2/172)
-          - Revelant courses: Calculus, Linear Algebra, Probability and Statistics, Programming Methodology, C/C++ Programming, Database System, Operating System, Machine Learning, Optimization, Digital Image Processing, Computer Vision, Bayesian Statistics
+          - CGPA: 3.87/4.0 (Rank 2/174)    MGPA: 3.953/4.0 (Rank 2/174)
+          - Revelant courses: Calculus, Linear Algebra, Probability and Statistics, Programming Methodology, C/C++ Programming, Database System, Operating System, Computer Architecture, Machine Learning, Optimization, Digital Image Processing, Computer Vision, Bayesian Statistics
           - Honors & Rewards: 
             - Dean's List (2020-2021, 2021-2022, 2022-2023) 
             - Academic Performance Scholarship: Class B (2020-2021, 2021-2022, 2022-2023)
@@ -73,6 +73,8 @@ content:
         description: | 
           - CGPA: 4.0/4.0
           - Revelant courses: Algorithms, Data Structures, Deep Learning 
+          
+  - title: Professional Experience
 
 
   - title: Research Experience # Title for the section
