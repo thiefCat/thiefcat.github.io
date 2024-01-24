@@ -74,18 +74,6 @@ content:
           - CGPA: 4.0/4.0
           - Revelant courses: Algorithms, Data Structures, Deep Learning 
 
-  - title: Professional Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: top
-      title: Software Development Internship, MES Research Department
-      caption: Dec. 2023 - Feb. 2023
-      sub_title: 
-        AInnovation ALP, Qingdao, China
-      description: | # this will include new lines to allow paragraphs
-        - Participated in the implementation of a Manufacturing Execution System for Tsingtao Brewery, Luoyang, 
-        using Spring Boot for the backend and Vue.js for the front end, achieving automatic order management and material management functions
-
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
